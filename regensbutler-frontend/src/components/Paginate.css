@@ -1,0 +1,4 @@
+.page-item.active .page-link {
+  background-color: rgb(10, 209, 10);
+  border-color: rgb(21, 190, 21);
+}

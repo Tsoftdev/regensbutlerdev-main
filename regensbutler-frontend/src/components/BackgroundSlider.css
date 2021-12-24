@@ -1,0 +1,23 @@
+.backgroundslider {
+  overflow-x: hidden;
+  height: 92vh;
+  /* height: 360px; */
+}
+
+.slideitem > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+
+.backgroundslider-text {
+  margin-top: 200px;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  font-size: 1.3rem;
+  color: #000;
+}

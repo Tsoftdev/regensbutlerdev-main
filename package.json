@@ -1,0 +1,59 @@
+{
+  "name": "project_regensbutler",
+  "version": "1.0.0",
+  "description": "Regensbutler Projekt",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix regensbutler-frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix regensbutler-frontend && npm run build --prefix regensbutler-frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shanair/project_regensbutler.git"
+  },
+  "author": "Walhalla-Software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shanair/project_regensbutler/issues"
+  },
+  "homepage": "https://github.com/Shanair/project_regensbutler#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
+    "aws-sdk": "^2.844.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "fast-csv": "^4.3.6",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.0",
+    "nodemon": "^2.0.6",
+    "paypal-rest-sdk": "^1.8.1",
+    "proxy-agent": "^4.0.1",
+    "sequelize": "^6.6.2",
+    "url": "^0.11.0",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,144 @@
+.sideItemStyle {
+  font-family: "Archivo Narrow";
+  font-weight: normal;
+  height: auto;
+  min-height: 36px;
+  width: 185px;
+  color: #696969;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 2px;
+  margin-left: 5px;
+
+  cursor: pointer;
+}
+
+.sideItemStyle2 a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.sideItemStyle a:hover {
+  text-decoration: underline;
+}
+
+.sideItemStyle2 {
+  font-family: "Archivo Narrow";
+  font-weight: normal;
+  height: auto;
+  min-height: 36px;
+  width: 185px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: darkred;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.directItemStyle {
+  font-family: "Archivo Narrow";
+  font-weight: normal;
+  height: auto;
+  min-height: 36px;
+  width: 185px;
+  color: #696969;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  padding-left: 15px;
+
+  cursor: pointer;
+}
+
+.directItemStyle2 {
+  font-family: "Archivo Narrow";
+  font-weight: normal;
+  height: auto;
+  min-height: 36px;
+  width: 185px;
+  color: #696969;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+
+  margin-left: 5px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.directItemStyleInner {
+  font-family: "Archivo Narrow";
+  font-weight: normal;
+  height: auto;
+  min-height: 36px;
+  width: 185px;
+  color: #696969;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.sideItemStyle:hover {
+  color: darkred;
+}
+
+.linkContainerStyle {
+  display: flex;
+  align-items: center;
+
+  height: 40px;
+  min-height: 40px;
+  width: 185px;
+  background: rgb(252, 217, 217);
+  margin-bottom: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+  padding-left: 14px;
+}
+
+.linkContainerStyle a:hover {
+  text-decoration: none;
+  color: darkred;
+}
+
+.BsFillCaretOpen {
+  margin-right: 5px;
+  color: white;
+}
+
+.BsFillCaretOpen2 {
+  margin-right: 5px;
+  color: #696969;
+}
+
+.BsFillCaretClosed {
+  margin-right: 5px;
+  color: #696969;
+}

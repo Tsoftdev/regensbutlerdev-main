@@ -1,0 +1,50 @@
+/* btnSideLink FIVE */
+
+.btnSideLink {
+    position: relative;
+    color: white;
+    width: 256px;
+    height: 64px;
+    line-height: 64px;
+    transition: all 0.3s;
+}
+
+.btnSideLinkTXT {
+    transition: all 0.3s;
+    transform: scale(1, 1);
+    color: #000;
+}
+
+.btnSideLink::before, .btnSideLink::after {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.btnSideLink-five::before {
+    transition: transform 0.15s, 0.15s border-radius 0.15s;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(0.1, 0.1);
+    border-radius: 50%;
+}
+
+.btnSideLink-five:hover::before {
+    opacity: 1;
+    transform: scale(1, 1);
+    border-radius: 0;
+}
+
+.btnSideLink-five::after {
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btnSideLink-five:hover::after {
+    opacity: 0;
+}

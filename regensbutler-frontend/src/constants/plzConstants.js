@@ -1,0 +1,3 @@
+export const PLZ_LIST_REQUEST = "PLZ_LIST_REQUEST";
+export const PLZ_LIST_SUCCESS = "PLZ_LIST_SUCCESS";
+export const PLZ_LIST_FAIL = "PLZ_LIST_FAIL";

@@ -1,0 +1,54 @@
+.mainfont {
+  font-family: "Source Sans Pro", "Poppins";
+}
+
+.mainfont h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", "Poppins";
+}
+
+.mainfont h1 {
+  font-family: "Poppins", "Poppins";
+  font-size: 1.9em;
+  font-weight: 700;
+}
+
+.mainfont h2 {
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
+.mainfont h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.white {
+  color: white;
+}
+
+.dim_gray {
+  color: #303030;
+}
+
+.size_impressum {
+  font-size: 1.2rem;
+  line-height: 1.2em;
+}
+
+.size_text_standard {
+  font-size: 1.2rem;
+  line-height: 1.2em;
+}
+
+.impressum_button {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Source Sans Pro";
+  font-weight: normal;
+  font-size: medium;
+  width: 120px;
+}

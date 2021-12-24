@@ -1,0 +1,72 @@
+@font-face {
+  font-family: preisFont;
+  src: url(fonts/GreatSejagad-JRpMM.ttf);
+}
+
+@font-face {
+  font-family: sourceSansPro;
+  src: url(fonts/source-sans-pro-v14-latin_greek-700.ttf);
+}
+
+.roboto {
+  font-family: sourceSansPro;
+  font-size: 1.2rem;
+  color: #696969;
+}
+
+.product__preis {
+  font-family: preisFont;
+  color: #666;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card__hover:hover {
+  filter: drop-shadow(0 0 0.15rem rgba(27, 146, 81, 0.2));
+}
+
+.rating {
+  font-family: "Source Sans Pro";
+  font-size: small;
+}
+
+.nospin::-webkit-outer-spin-button,
+.nospin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.nospin[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.modal-top-container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.modal-top-container-left {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.modal-top-container-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-product-image {
+  width: 100%;
+  height: 20vh;
+  object-fit: scale-down;
+}
+
+.normal_text {
+  font-size: 1.1rem;
+}
